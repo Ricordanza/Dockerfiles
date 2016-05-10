@@ -3,6 +3,7 @@ FROM debian:jessie
 RUN apt-get update -y && \
     apt-get install -y curl && \
     apt-get install -y build-essential && \
+    apt-get install -y git && \
     apt-get install -y vim && \
     apt-get install -y python && \    
     apt-get install -y python2.7-dev && \
@@ -10,7 +11,9 @@ RUN apt-get update -y && \
     pip install aws virtualenv virtualenvwrapper lamvery python-lambda-local lambda-controller && \
     echo "source /usr/local/bin/virtualenvwrapper.sh" >> .bashrc && \
     echo "export WORKON_HOME=$HOME/.virtualenvs" >> .bashrc && \
-    rm -rf /var/lib/apt/lists/* && \
+    apt-get autoremove && \
+    apt-get autoclean && \
+    apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /var/cache/apt/* && \
     rm -rf /var/log/*
