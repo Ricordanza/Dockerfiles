@@ -2,7 +2,7 @@ FROM ricordanza/python
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    pip install awscli lamvery python-lambda-local lambda-controller && \
+    pip install awscli lamvery python-lambda-local && \
     apt-get autoremove && \
     apt-get autoclean && \
     apt-get clean && \
