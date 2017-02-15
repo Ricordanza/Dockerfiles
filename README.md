@@ -12,6 +12,9 @@ Docker Image of python based lambda development.
 ## ubuntu go
 Docker Image of japanize based golang development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/go/)
+## ubuntu node
+Docker Image of japanize based node.js development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/node/)
 ## centos japanize
 Docker Image of CentOS7 based. Localizing into Japanese.
 [Docker Hub](https://hub.docker.com/r/ricordanza/centos7-japanize/)
