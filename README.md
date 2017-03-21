@@ -15,6 +15,9 @@ Docker Image of japanize based golang development.
 ## ubuntu node
 Docker Image of japanize based node.js development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/node/)
+## ubuntu serverless
+Docker Image of japanize based serverless development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/serverless/)
 ## centos japanize
 Docker Image of CentOS7 based. Localizing into Japanese.
 [Docker Hub](https://hub.docker.com/r/ricordanza/centos7-japanize/)
