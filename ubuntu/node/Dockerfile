@@ -12,7 +12,6 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     ln -sf /usr/local/bin/node /usr/bin/node && \
     npm install -g browserify && \
     npm install -g gulp && \
-    npm install -g grunt-cli
     apt-get purge -y nodejs npm && \
     apt-get autoremove -y && \
     apt-get autoclean -y && \
