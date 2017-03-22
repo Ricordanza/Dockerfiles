@@ -8,9 +8,11 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get install -y nodejs npm && \
     npm cache clean && \
     npm install n -g && \
-    n stable && \
-    npm install -g browserify && \
+    n stable && \    
     ln -sf /usr/local/bin/node /usr/bin/node && \
+    npm install -g browserify && \
+    npm install -g gulp && \
+    npm install -g grunt-cli
     apt-get purge -y nodejs npm && \
     apt-get autoremove -y && \
     apt-get autoclean -y && \
