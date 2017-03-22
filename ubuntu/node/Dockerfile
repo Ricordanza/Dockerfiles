@@ -9,6 +9,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     npm cache clean && \
     npm install n -g && \
     n stable && \
+    npm install -g browserify && \
     ln -sf /usr/local/bin/node /usr/bin/node && \
     apt-get purge -y nodejs npm && \
     apt-get autoremove -y && \
