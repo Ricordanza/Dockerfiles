@@ -21,6 +21,9 @@ Docker Image of japanize based ruby development.
 ## ubuntu serverless
 Docker Image of japanize based serverless development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/serverless/)
+## ubuntu serverspec
+Docker Image of japanize based serverspec development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/serverspec/)
 ## centos japanize
 Docker Image of CentOS7 based. Localizing into Japanese.
 [Docker Hub](https://hub.docker.com/r/ricordanza/centos7-japanize/)
