@@ -15,6 +15,9 @@ Docker Image of japanize based golang development.
 ## ubuntu node
 Docker Image of japanize based node.js development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/node/)
+## ubuntu ruby
+Docker Image of japanize based ruby development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/ruby/)
 ## ubuntu serverless
 Docker Image of japanize based serverless development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/serverless/)
