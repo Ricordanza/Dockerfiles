@@ -2,7 +2,7 @@ FROM ricordanza/japanize
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y build-essential curl git zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev && \
+    apt-get install -y build-essential curl git vim zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev && \
     git clone https://github.com/sstephenson/rbenv.git ~/.rbenv && \
     git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build && \
     PATH /root/.rbenv/bin:$PATH && \
