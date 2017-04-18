@@ -1,9 +1,8 @@
-FROM ricordanza/aws
+FROM ricordanza/python
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    pip install lamvery python-lambda-local && \
-    curl https://raw.githubusercontent.com/apex/apex/master/install.sh | && \
+    pip install awscli && \
     apt-get autoremove && \
     apt-get autoclean && \
     apt-get clean && \

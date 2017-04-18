@@ -6,8 +6,14 @@ Localizing into Japanese.
 ## ubuntu python
 Docker Image of japanize based python development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/python/)
+## ubuntu aws
+Docker Image of python based awscli development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/aws/)
+## ubuntu terraform
+Docker Image of aws based terraform (0.9.3) development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/lambda/)
 ## ubuntu lambda
-Docker Image of python based lambda development.
+Docker Image of aws based lambda development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/lambda/)
 ## ubuntu go
 Docker Image of japanize based golang development.
