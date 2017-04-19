@@ -11,7 +11,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     pip install virtualenv virtualenvwrapper ipython && \
     echo "WORKON_HOME=~/.virtualenvs" >> ~/.bashrc && \
     echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc && \
-    git clone https://github.com/sstephenson/rbenv.git ~/.rbenv && \
+    git clone https://github.com/yyuu/pyenv.git ~/.pyenv && \
     echo 'export PYENV_ROOT=$HOME/.pyenv' >> ~/.bashrc && \
     echo 'export PATH=$PYENV_ROOT/bin:$PATH' >> ~/.bashrc && \
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc && \
