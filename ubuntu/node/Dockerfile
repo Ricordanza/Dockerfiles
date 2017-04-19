@@ -2,13 +2,10 @@ FROM ricordanza/japanize
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y curl && \
-    apt-get install -y git && \
-    apt-get install -y vim && \
-    apt-get install -y nodejs npm && \
+    apt-get install -y curl zip git vim nodejs npm && \
     npm cache clean && \
     npm install n -g && \
-    n stable && \    
+    n stable && \
     ln -sf /usr/local/bin/node /usr/bin/node && \
     npm install -g browserify && \
     npm install -g gulp && \

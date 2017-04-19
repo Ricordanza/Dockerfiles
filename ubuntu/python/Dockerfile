@@ -2,12 +2,7 @@ FROM ricordanza/japanize
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y curl && \
-    apt-get install -y git && \
-    apt-get install -y vim && \
-    apt-get install -y python && \
-    apt-get install -y python-pip && \
-    apt-get install -y python3-pip && \    
+    apt-get install -y curl zip git vim python python-pip && \
     pip install virtualenv virtualenvwrapper ipython && \
     echo "WORKON_HOME=~/.virtualenvs" >> ~/.bashrc && \
     echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc && \
@@ -16,9 +11,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     echo 'export PATH=$PYENV_ROOT/bin:$PATH' >> ~/.bashrc && \
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc && \
     echo 'eval "$(pyenv init -)"' >> /etc/profile && \
-    ~/.pyenv/bin/pyenv install 3.6.1 && \
-    ~/.pyenv/bin/pyenv global 3.6.1 && \
-    ~/.pyenv/bin/pyenv rehash && \
+    eval "$(~/.pyenv/bin/pyenv init -)" && \
     apt-get autoremove && \
     apt-get autoclean && \
     apt-get clean && \
