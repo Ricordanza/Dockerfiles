@@ -1,8 +1,10 @@
 FROM ricordanza/node
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
-    npm install -g serverless && \
+    apt-get update -y && \
+    apt-get install -y python-pip && \ 
     pip install awscli && \
+    npm install -g serverless && \
     apt-get autoremove && \
     apt-get autoclean && \
     apt-get clean && \
