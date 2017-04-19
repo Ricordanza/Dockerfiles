@@ -1,4 +1,5 @@
 # Custom Docker Image Files
+[![Build Status](https://travis-ci.org/Ricordanza/Dockerfiles.svg?branch=master)](https://travis-ci.org/Ricordanza/Dockerfiles)
 ## ubuntu japanize
 Docker Image of Ubuntu based.
 Localizing into Japanese.
