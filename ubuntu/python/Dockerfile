@@ -2,7 +2,7 @@ FROM ricordanza/japanize
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y curl zip git vim python python-pip && \
+    apt-get install -y curl zip git vim python python-pip zlib-dev libsqlite3-dev tk-dev libbz2-dev libreadline-dev libssl-dev openssl && \
     pip install virtualenv virtualenvwrapper ipython && \
     echo "WORKON_HOME=~/.virtualenvs" >> ~/.bashrc && \
     echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc && \
@@ -12,6 +12,9 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc && \
     echo 'eval "$(pyenv init -)"' >> /etc/profile && \
     eval "$(~/.pyenv/bin/pyenv init -)" && \
+    ~/.pyenv/bin/pyenv install 3.6.1 && \
+    ~/.pyenv/bin/pyenv global 3.6.1 && \
+    ~/.pyenv/bin/pyenv rehash && \
     apt-get autoremove && \
     apt-get autoclean && \
     apt-get clean && \
