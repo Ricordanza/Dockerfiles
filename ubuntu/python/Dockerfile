@@ -3,7 +3,7 @@ FROM ricordanza/japanize
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
     apt-get install -y curl zip git vim python python-pip zlib1g-dev libsqlite3-dev tk-dev libbz2-dev libreadline-dev libssl-dev openssl && \
-    pip install virtualenv pyenv-virtualenv ipython && \
+    pip install virtualenv ipython && \
     echo "WORKON_HOME=~/.virtualenvs" >> ~/.bashrc && \
     git clone https://github.com/yyuu/pyenv.git ~/.pyenv && \
     git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv && \
