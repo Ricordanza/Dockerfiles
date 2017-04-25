@@ -3,15 +3,18 @@ FROM ricordanza/japanize
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
     apt-get install -y curl zip git vim python python-pip zlib1g-dev libsqlite3-dev tk-dev libbz2-dev libreadline-dev libssl-dev openssl && \
-    pip install virtualenv virtualenvwrapper ipython && \
+    pip install virtualenv pyenv-virtualenv ipython && \
     echo "WORKON_HOME=~/.virtualenvs" >> ~/.bashrc && \
-    echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc && \
     git clone https://github.com/yyuu/pyenv.git ~/.pyenv && \
+    git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv && \
     echo 'export PYENV_ROOT=$HOME/.pyenv' >> ~/.bashrc && \
     echo 'export PATH=$PYENV_ROOT/bin:$PATH' >> ~/.bashrc && \
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc && \
     echo 'eval "$(pyenv init -)"' >> /etc/profile && \
+    echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc && \
+    echo 'eval "$(pyenv virtualenv-init -)"' >> /etc/profile && \
     eval "$(~/.pyenv/bin/pyenv init -)" && \
+    eval "$(~/.pyenv/bin/pyenv virtualenv-init -)" && \
     ~/.pyenv/bin/pyenv install 3.6.1 && \
     ~/.pyenv/bin/pyenv global 3.6.1 && \
     ~/.pyenv/bin/pyenv rehash && \
