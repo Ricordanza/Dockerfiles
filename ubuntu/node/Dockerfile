@@ -2,7 +2,7 @@ FROM ricordanza/japanize
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y curl zip git vim nodejs npm && \
+    apt-get install -y tmux curl zip git vim nodejs npm && \
     npm cache clean && \
     npm install n -g && \
     n stable && \
