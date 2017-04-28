@@ -4,6 +4,7 @@ services:
   - docker
 before_script:
   - docker build -t ricordanza/japanize ubuntu/japanize/.
+  - docker build -t ricordanza/develop ubuntu/develop/.
   - docker build -t ricordanza/python ubuntu/python/.
   - docker build -t ricordanza/lambda ubuntu/lambda/.
   - docker build -t ricordanza/centos7-japanize centos7/japanize/.

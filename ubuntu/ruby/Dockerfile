@@ -1,8 +1,8 @@
-FROM ricordanza/japanize
+FROM ricordanza/develop
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y build-essential tmux curl zip git vim zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev && \
+    apt-get install -y build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev && \
     git clone https://github.com/sstephenson/rbenv.git ~/.rbenv && \
     git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build && \
     echo 'export PATH="~/.rbenv/bin:$PATH"' >> ~/.bashrc && \

@@ -1,8 +1,8 @@
-FROM ricordanza/japanize
+FROM ricordanza/develop
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y tmux curl zip git vim nodejs npm && \
+    apt-get install -y nodejs npm && \
     npm cache clean && \
     npm install n -g && \
     n stable && \

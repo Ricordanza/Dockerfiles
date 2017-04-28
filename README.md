@@ -4,8 +4,11 @@
 Docker Image of Ubuntu based.
 Localizing into Japanese.
 [Docker Hub](https://hub.docker.com/r/ricordanza/japanize/)
+## ubuntu develop
+Docker Image of japanize based development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/develop/)
 ## ubuntu python
-Docker Image of japanize based python (3.6.1)  development.
+Docker Image of japanize based python (3.6.1) development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/python/)
 ## ubuntu aws
 Docker Image of python based awscli development.

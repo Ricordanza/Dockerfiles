@@ -1,8 +1,8 @@
-FROM ricordanza/japanize
+FROM ricordanza/develop
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
-    apt-get install -y tmux curl zip git vim python python-pip zlib1g-dev libsqlite3-dev tk-dev libbz2-dev libreadline-dev libssl-dev openssl && \
+    apt-get install -y python python-pip zlib1g-dev libsqlite3-dev tk-dev libbz2-dev libreadline-dev libssl-dev openssl && \
     pip install --upgrade pip && \
     pip install virtualenv ipython && \
     echo "WORKON_HOME=~/.virtualenvs" >> ~/.bashrc && \
