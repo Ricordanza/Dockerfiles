@@ -17,7 +17,6 @@ before_script:
   - docker build -t ricordanza/heroku ubuntu/heroku/.
   - docker build -t ricordanza/ansible ubuntu/ansible/.
   - docker build -t ricordanza/ansiblespec ubuntu/ansiblespec/.
-  - docker build -t ricordanza/awspec ubuntu/awspec/.
   - docker build -t ricordanza/anyspec ubuntu/anyspec/.
   - docker build -t ricordanza/centos7-japanize centos7/japanize/.
   - docker build -t ricordanza/centos7-php56 centos7/php56/.

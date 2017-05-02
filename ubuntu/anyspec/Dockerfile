@@ -1,4 +1,4 @@
-FROM ricordanza/anyspec
+FROM ricordanza/ansiblespec
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
