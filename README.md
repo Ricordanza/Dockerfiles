@@ -28,6 +28,9 @@ Docker Image of develop based node.js development.
 ## ubuntu ruby
 Docker Image of develop based ruby (2.4.1) development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/ruby/)
+## ubuntu heroku
+Docker Image of ruby based heroku development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/heroku/)
 ## ubuntu serverless
 Docker Image of node based serverless development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/serverless/)
@@ -40,15 +43,9 @@ Docker Image of ruby based serverspec development.
 ## ubuntu ansiblespec
 Docker Image of ansible based ansiblespec development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/ansiblespec/)
-## ubuntu awspec
-Docker Image of ruby based awspec development.
-[Docker Hub](https://hub.docker.com/r/ricordanza/awspec/)
-## ubuntu anywspec
+## ubuntu anyspec
 Docker Image of ansiblespec based ansible, ansible_spec, serverspec, awspec development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/anyspec/)
-## ubuntu heroku
-Docker Image of ruby based heroku development.
-[Docker Hub](https://hub.docker.com/r/ricordanza/heroku/)
 ## centos japanize
 Docker Image of CentOS7 based. Localizing into Japanese.
 [Docker Hub](https://hub.docker.com/r/ricordanza/centos7-japanize/)
