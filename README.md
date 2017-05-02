@@ -43,6 +43,9 @@ Docker Image of ansible based ansiblespec development.
 ## ubuntu awspec
 Docker Image of ruby based awspec development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/awspec/)
+## ubuntu anywspec
+Docker Image of ansiblespec based ansible, ansible_spec, serverspec, awspec development.
+[Docker Hub](https://hub.docker.com/r/ricordanza/anyspec/)
 ## ubuntu heroku
 Docker Image of ruby based heroku development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/heroku/)
