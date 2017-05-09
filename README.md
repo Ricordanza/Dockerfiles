@@ -20,7 +20,7 @@ Docker Image of aws based terraform (0.9.3) development.
 Docker Image of aws based lambda development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/lambda/)
 ## ubuntu go
-Docker Image of develop based golang development.
+Docker Image of develop based golang (1.8) development.
 [Docker Hub](https://hub.docker.com/r/ricordanza/go/)
 ## ubuntu node
 Docker Image of develop based node.js development.
