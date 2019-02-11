@@ -1,5 +1,6 @@
 FROM ubuntu
 
+ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
  apt-get -y upgrade && \
  apt-get -y install language-pack-ja-base language-pack-ja ibus-mozc && \

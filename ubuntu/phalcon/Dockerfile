@@ -1,6 +1,5 @@
 FROM ricordanza/develop
 
-ENV DEBIAN_FRONTEND=noninteractive
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
 	curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | bash && \
