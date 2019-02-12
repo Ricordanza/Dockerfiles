@@ -15,5 +15,3 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /var/cache/apt/* && \
     rm -rf /var/log/*
-
-CMD julia
