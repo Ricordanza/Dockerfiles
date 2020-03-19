@@ -117,8 +117,3 @@ Docker Image of Deep Leaning from Scratch study.
 Docker Image of configuration management tool and AWS CLI installed on golang.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/go-aws)](https://hub.docker.com/r/ricordanza/go-aws)  
 [Dockerfile](/other/go-aws/Dockerfile)
-
-## kali ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/kali) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/kali)
-Docker Image of full version kali linux.  
-[![dockeri.co](https://dockeri.co/image/ricordanza/kali)](https://hub.docker.com/r/ricordanza/kali)  
-[Dockerfile](/other/kali/Dockerfile)
