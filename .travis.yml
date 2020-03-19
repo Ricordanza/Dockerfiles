@@ -5,21 +5,21 @@ python:
 services:
   - docker
 before_script:
-  # - docker build -t ricordanza/japanize ubuntu/japanize/.
-  # - docker build -t ricordanza/develop ubuntu/develop/.
-  # - docker build -t ricordanza/python ubuntu/python/.
-  # - docker build -t ricordanza/go ubuntu/go/.
-  # - docker build -t ricordanza/node ubuntu/node/.
-  # - docker build -t ricordanza/ruby ubuntu/ruby/.
-  # - docker build -t ricordanza/serverless ubuntu/serverless/.
-  # - docker build -t ricordanza/lambda ubuntu/lambda/.
-  # - docker build -t ricordanza/aws ubuntu/aws/.
-  # - docker build -t ricordanza/severspec ubuntu/serverspec/.
-  # - docker build -t ricordanza/heroku ubuntu/heroku/.
-  # - docker build -t ricordanza/ansible ubuntu/ansible/.
-  # - docker build -t ricordanza/ansiblespec ubuntu/ansiblespec/.
-  # - docker build -t ricordanza/anyspec ubuntu/anyspec/.
-  # - docker build -t ricordanza/terraform ubuntu/terraform/.
+  - docker build -t ricordanza/japanize ubuntu/japanize/.
+  - docker build -t ricordanza/develop ubuntu/develop/.
+  - docker build -t ricordanza/python ubuntu/python/.
+  - docker build -t ricordanza/go ubuntu/go/.
+  - docker build -t ricordanza/node ubuntu/node/.
+  - docker build -t ricordanza/ruby ubuntu/ruby/.
+  - docker build -t ricordanza/serverless ubuntu/serverless/.
+  - docker build -t ricordanza/lambda ubuntu/lambda/.
+  - docker build -t ricordanza/aws ubuntu/aws/.
+  - docker build -t ricordanza/severspec ubuntu/serverspec/.
+  - docker build -t ricordanza/heroku ubuntu/heroku/.
+  - docker build -t ricordanza/ansible ubuntu/ansible/.
+  - docker build -t ricordanza/ansiblespec ubuntu/ansiblespec/.
+  - docker build -t ricordanza/anyspec ubuntu/anyspec/.
+  - docker build -t ricordanza/terraform ubuntu/terraform/.
   - docker build -t ricordanza/selenium ubuntu/selenium/.
   - docker build -t ricordanza/skipfish ubuntu/skipfish/.
   - docker build -t ricordanza/julia ubuntu/julia/.
@@ -27,6 +27,5 @@ before_script:
   - docker build -t ricordanza/centos7-php56 centos7/php56/.
   - docker build -t ricordanza/dlfs other/dlfs/.
   - docker build -t ricordanza/go-aws other/go-aws/.
-  - docker build -t ricordanza/kali other/kali/.
 script:
   - docker run ricordanza/japanize bash
