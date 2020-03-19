@@ -20,7 +20,6 @@ before_script:
   - docker build -t ricordanza/ansiblespec ubuntu/ansiblespec/.
   - docker build -t ricordanza/anyspec ubuntu/anyspec/.
   - docker build -t ricordanza/terraform ubuntu/terraform/.
-  - docker build -t ricordanza/phalcon ubuntu/phalcon/.
   - docker build -t ricordanza/selenium ubuntu/selenium/.
   - docker build -t ricordanza/skipfish ubuntu/skipfish/.
   - docker build -t ricordanza/julia ubuntu/julia/.

@@ -2,10 +2,17 @@ FROM ricordanza/develop
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
+    apt-get install -y wget software-properties-common && \
+    add-apt-repository ppa:ondrej/php && \
+    apt-get update -y && \
+    apt-get install -y php7.1-common && \
 	curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | bash && \
-	apt-get install -y wget php7.2 php7.2-phalcon && \
-	git clone https://github.com/phalcon/phalcon-devtools.git /opt/phalcon-devtools && \
-	ln -fs /opt/phalcon-devtools/phalcon.php /usr/local/bin/phalcon && \
+	apt-get install -y php7.1-phalcon && \
+	curl -s http://getcomposer.org/installer | php && \
+
+
+    git clone https://github.com/phalcon/phalcon-devtools.git /opt/phalcon-devtools && \
+	ln -fs /opt/phalcon-devtools/phalcon /usr/local/bin/phalcon && \
 	chmod +x /usr/local/bin/phalcon && \
 	wget https://psysh.org/psysh && \
 	chmod +x psysh && \
