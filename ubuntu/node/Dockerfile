@@ -6,9 +6,9 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     npm cache clean && \
     npm install n -g && \
     n stable && \
+	npm i -g browserify && \
+    npm i -g gulp gulp-cli && \
     ln -sf /usr/local/bin/node /usr/bin/node && \
-    npm install -g browserify && \
-    npm install -g gulp && \
     apt-get purge -y nodejs npm && \
     apt-get autoremove -y && \
     apt-get autoclean -y && \

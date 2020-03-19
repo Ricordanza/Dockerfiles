@@ -1,4 +1,4 @@
-FROM kalilinux/kali-linux-docker
+FROM kalilinux/kali-rolling
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update -y && \
