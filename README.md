@@ -14,17 +14,17 @@ Docker Image of japanize based development.
 [Dockerfile](/ubuntu/develop/Dockerfile)
 
 ### python ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/python) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/python)
-Docker Image of develop based python (3.6.1) development.  
+Docker Image of develop based python 3 development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/python)](https://hub.docker.com/r/ricordanza/python)  
 [Dockerfile](/ubuntu/python/Dockerfile)
 
 ### aws ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/aws) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/aws)
-Docker Image of python based awscli development.  
+Docker Image of python based awscli v2 development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/aws)](https://hub.docker.com/r/ricordanza/aws)  
 [Dockerfile](/ubuntu/aws/Dockerfile)
 
 ### terraform ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/terraform) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/terraform)
-Docker Image of aws based terraform (0.9.3) development.  
+Docker Image of aws based terraform development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/terraform)](https://hub.docker.com/r/ricordanza/terraform)  
 [Dockerfile](/ubuntu/terraform/Dockerfile)
 
@@ -34,7 +34,7 @@ Docker Image of aws based lambda development.
 [Dockerfile](/ubuntu/lambda/Dockerfile)
 
 ### go ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/go) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/go)
-Docker Image of develop based golang (1.8) development.  
+Docker Image of develop based golang development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/go)](https://hub.docker.com/r/ricordanza/go)  
 [Dockerfile](/ubuntu/go/Dockerfile)
 
@@ -44,7 +44,7 @@ Docker Image of develop based node.js development.
 [Dockerfile](/ubuntu/node/Dockerfile)
 
 ### ruby ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/ruby) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/ruby)
-Docker Image of develop based ruby (2.4.1) development.  
+Docker Image of develop based ruby 2 development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/ruby)](https://hub.docker.com/r/ricordanza/ruby)  
 [Dockerfile](/ubuntu/ruby/Dockerfile)
 
@@ -84,7 +84,7 @@ Docker Image of develop based selenium with chrome, firefox and driver installed
 [Dockerfile](/ubuntu/selenium/Dockerfile)
 
 ### julia ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/julia) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/julia)
-Docker Image of develop based julia (1.1) development.  
+Docker Image of develop based julia development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/julia)](https://hub.docker.com/r/ricordanza/julia)  
 [Dockerfile](/ubuntu/julia/Dockerfile)
 

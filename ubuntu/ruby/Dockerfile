@@ -8,8 +8,8 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     echo 'export PATH="~/.rbenv/bin:$PATH"' >> ~/.bashrc && \
     echo 'eval "$(rbenv init -)"' >> ~/.bashrc && \
     echo 'eval "$(rbenv init -)"' >> /etc/profile && \
-    ~/.rbenv/bin/rbenv install 2.4.1 && \
-    ~/.rbenv/bin/rbenv global 2.4.1 && \
+    ~/.rbenv/bin/rbenv install 2.7.0 && \
+    ~/.rbenv/bin/rbenv global 2.7.0 && \
     ~/.rbenv/bin/rbenv rehash && \
     apt-get autoremove && \
     apt-get autoclean && \

@@ -16,8 +16,8 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     echo 'eval "$(pyenv virtualenv-init -)"' >> /etc/profile && \
     eval "$(~/.pyenv/bin/pyenv init -)" && \
     eval "$(~/.pyenv/bin/pyenv virtualenv-init -)" && \
-    ~/.pyenv/bin/pyenv install 3.6.1 && \
-    ~/.pyenv/bin/pyenv global 3.6.1 && \
+    ~/.pyenv/bin/pyenv install 3.8.2 && \
+    ~/.pyenv/bin/pyenv global 3.8.2 && \
     ~/.pyenv/bin/pyenv rehash && \
     apt-get autoremove && \
     apt-get autoclean && \

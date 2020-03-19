@@ -10,8 +10,8 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     mkdir -p $GOPATH/bin && \
     export PATH="$HOME/.goenv/bin:$GOPATH/bin:$PATH" && \
     eval "$(goenv init -)" && \
-    $HOME/.goenv/bin/goenv install 1.9.2 && \
-    $HOME/.goenv/bin/goenv global 1.9.2 && \
+    $HOME/.goenv/bin/goenv install 1.13.8 && \
+    $HOME/.goenv/bin/goenv global 1.13.8 && \
     $HOME/.goenv/bin/goenv rehash && \
     $HOME/.goenv/shims/go get -u github.com/golang/dep/cmd/dep && \
     apt-get autoremove && \
