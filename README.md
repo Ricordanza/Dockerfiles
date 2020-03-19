@@ -14,7 +14,7 @@ Docker Image of japanize based development.
 [Dockerfile](/ubuntu/develop/Dockerfile)
 
 ### python ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/python) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/python)
-Docker Image of develop based python (3.6.1) development.
+Docker Image of develop based python (3.6.1) development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/python)](https://hub.docker.com/r/ricordanza/python)  
 [Dockerfile](/ubuntu/python/Dockerfile)
 
