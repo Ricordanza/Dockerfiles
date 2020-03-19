@@ -96,8 +96,7 @@ Docker Image of Ubuntu based skipfish.
 ## CentOS 7 based image
 
 ### japanize ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/centos7-japanize) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/centos7-japanize)
-Docker Image of CentOS7 based. Localizing into Japanese.
-[Docker Hub](https://hub.docker.com/r/ricordanza/centos7-japanize/)
+Docker Image of CentOS7 based. Localizing into Japanese.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/centos7-japanize)](https://hub.docker.com/r/ricordanza/centos7-japanize)  
 [Dockerfile](/centos7/japanize/Dockerfile)
 
