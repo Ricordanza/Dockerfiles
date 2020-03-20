@@ -108,12 +108,12 @@ Docker Image of centos7-japanize based php56 development.
 
 ## Other
 
-## dlfs ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/dlfs) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/dlfs)
+### dlfs ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/dlfs) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/dlfs)
 Docker Image of Deep Leaning from Scratch study.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/dlfs)](https://hub.docker.com/r/ricordanza/dlfs)  
 [Dockerfile](/other/dlfs/Dockerfile)
 
-## go-aws ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/go-aws) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/go-aws)
+### go-aws ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/go-aws) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/go-aws)
 Docker Image of configuration management tool and AWS CLI installed on golang.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/go-aws)](https://hub.docker.com/r/ricordanza/go-aws)  
 [Dockerfile](/other/go-aws/Dockerfile)
