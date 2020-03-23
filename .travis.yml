@@ -22,6 +22,7 @@ before_script:
   - docker build -t ricordanza/terraform ubuntu/terraform/.
   - docker build -t ricordanza/selenium ubuntu/selenium/.
   - docker build -t ricordanza/skipfish ubuntu/skipfish/.
+  - docker build -t ricordanza/skipfish ubuntu/vegeta/.
   - docker build -t ricordanza/julia ubuntu/julia/.
   - docker build -t ricordanza/centos7-japanize centos7/japanize/.
   - docker build -t ricordanza/centos7-php56 centos7/php56/.

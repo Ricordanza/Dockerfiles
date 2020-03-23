@@ -94,6 +94,11 @@ Docker Image of Ubuntu based skipfish.
 [![dockeri.co](https://dockeri.co/image/ricordanza/skipfish)](https://hub.docker.com/r/ricordanza/skipfish)  
 [Dockerfile](/ubuntu/skipfish/Dockerfile)
 
+### vegeta ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/vegeta) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/vegeta)
+Docker Image of go based vegeta.  
+[![dockeri.co](https://dockeri.co/image/ricordanza/vegeta)](https://hub.docker.com/r/ricordanza/vegeta)  
+[Dockerfile](/ubuntu/vegeta/Dockerfile)
+
 ## CentOS 7 based image
 
 ### japanize ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/centos7-japanize) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/centos7-japanize)
