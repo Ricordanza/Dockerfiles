@@ -29,11 +29,6 @@ Docker Image of aws based terraform development.
 [![dockeri.co](https://dockeri.co/image/ricordanza/terraform)](https://hub.docker.com/r/ricordanza/terraform)  
 [Dockerfile](/ubuntu/terraform/Dockerfile)
 
-### lambda ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/lambda) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/lambda)
-Docker Image of aws based lambda development.  
-[![dockeri.co](https://dockeri.co/image/ricordanza/lambda)](https://hub.docker.com/r/ricordanza/lambda)  
-[Dockerfile](/ubuntu/lambda/Dockerfile)
-
 ### go ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/go) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/go)
 Docker Image of develop based golang development.  
 [![dockeri.co](https://dockeri.co/image/ricordanza/go)](https://hub.docker.com/r/ricordanza/go)  
