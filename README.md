@@ -1,5 +1,6 @@
-# Custom Docker Image Files
-[![Build Status](https://travis-ci.org/Ricordanza/Dockerfiles.svg?branch=master)](https://travis-ci.org/Ricordanza/Dockerfiles)
+# Custom Docker Image Files [![Build Status](https://travis-ci.org/Ricordanza/Dockerfiles.svg?branch=master)](https://travis-ci.org/Ricordanza/Dockerfiles)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ricordanza/Dockerfiles)
 
 ## Ubuntu based image
 
