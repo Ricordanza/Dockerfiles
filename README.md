@@ -72,7 +72,7 @@ Docker Image of ansible based ansiblespec development.
 
 ### anyspec ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/anyspec) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/anyspec)
 Docker Image of ansiblespec based ansible, ansible_spec, serverspec, awspec development.  
-[![dockeri.co](https://dockeri.co/image/ricordanza/ansiblespec)](https://hub.docker.com/r/ricordanza/anyspec)  
+[![dockeri.co](https://dockeri.co/image/ricordanza/anyspec)](https://hub.docker.com/r/ricordanza/anyspec)  
 [Dockerfile](/ubuntu/anyspec/Dockerfile)
 
 ### selenium ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ricordanza/selenium) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ricordanza/selenium)
